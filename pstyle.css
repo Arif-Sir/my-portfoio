@@ -1,43 +1,127 @@
-body{
+/* shared style */
+body {
     font-family: 'Open Sans', sans-serif;
-}    
-    
-.text-primary{
+}
+
+.text-primary {
     color: #FD6E0A;
     /* font-style: italic; */
 }
 
-    /* nav style */
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-.nav-title{
+.section-title {
     color: #181818;
-font-size: 45px;
-font-weight: 800;
-}    
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
 
-nav > ul{
+.section-dis {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: black;
 }
-button{
+
+/* hire me button */
+button {
     color: white;
     font-size: 15px;
     font-weight: 700;
     border-radius: 5px;
     padding: 15px 15px;
-background: #FD6E0A;
+    background: #bb540b;
+}
 
+/* header style */
+header {
+    background: #662525;
+    background-image: url('../my-portfoio/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.bannar {
+    padding: 50px 50px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bannar-content {
+    max-width: 500px;
+}
+
+.bannar .profile {
+    width: 500px;
+}
+
+.bannar-greeting {
+    font-size: 50px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.bannar-title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.dis {
+    margin-top: 20px;
+}
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #5b3215;
+    margin: 130px;
+}
+.about-info-contain{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-inf{
+    text-align: center;
+}
+#what-dis{
+    padding: 30px 150px;
 }
